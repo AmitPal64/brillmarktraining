@@ -1,0 +1,21 @@
+.container{
+    background-image: url(/wp-content/themes/sage10/public/images/contact-us-compass.3c5253.svg);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    flex: 1 1 auto;
+    padding: 1rem;
+    position: relative;
+}
+.container .heading{
+    text-align: center;
+}
+.container .left .image img{
+    width: 4rem;
+    height: 4rem;
+    max-height: 4rem;
+    max-width: 4rem;
+    border: solid 2px rgba(var(--bs-medium-blue-rgb),var(--bs-text-opacity))!important;
+}
+.container .left{
+    display: flex;
+}

@@ -1,0 +1,32 @@
+// html body.gr-testEncouragementLine {
+//     .minicart .minicart-details +img + .minicart-buttons{
+//         display: flex;
+//         flex-direction: column;
+//         position: relative;
+
+//         a[href*="/en-us/shoppingcart"]{
+//             order: 2;
+//             margin-top: 10px;
+//             background-color: transparent;
+//             border: transparent;
+//             color: #000000;
+//         }
+//         a[href*="/en-us/shoppingcart"]:hover{
+//             background-color: transparent;
+//             color: #000000;
+//         }
+
+//         a[href*="/en-us/checkout"]{
+//             order: 1;
+//         }
+//     }
+//     .minicart .minicart-details +img + .minicart-buttons::before{
+//         content: "Almost there! You\'re minutes away from authentic Polk sound.";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         height: 100%;
+//         width: 100%;
+
+//     }
+// }

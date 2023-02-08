@@ -1,0 +1,8 @@
+{
+	"files": [
+		"VariantC/variation.js",
+		"VariantC/variation.css"		
+	],
+	"inject": "",
+	"urls": ["https://www.polkaudio.com/en-us/series/magnifi"]
+}
