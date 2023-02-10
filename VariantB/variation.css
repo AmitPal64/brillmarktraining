@@ -1,21 +1,80 @@
-.container{
+html body .type-page .entry-content #contactUs .modal-body{
+    display: flex;
+}
+html body .type-page .entry-content #contactUs .modal-body .display-3{
+    display: none;
+}
+html body .type-page .entry-content #contactUs .modal-body .text-brand2-5{
+    display: none;
+}
+html body .type-page .entry-content #contactUs .modal-body >p:not(.text-brand2-5){
+    display: none;
+}
+html body .type-page .entry-content #contactUs .modal-body .gform_legacy_markup_wrapper{
+    margin-bottom: 16px;
+    margin-top: 16px;
+    max-width: 50%;
+    margin-left: auto;
+}
+html body .section{ 
     background-image: url(/wp-content/themes/sage10/public/images/contact-us-compass.3c5253.svg);
     background-position: 0 100%;
     background-repeat: no-repeat;
-    flex: 1 1 auto;
-    padding: 1rem;
-    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
 }
-.container .heading{
+html body .section .heading{
+    font-size: 28px;
+    font-weight: 400;
     text-align: center;
+    padding-top: 42px;
+    color: #001e60;
+    letter-spacing: .5px;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    margin-top: 0;
 }
-.container .left .image img{
+html body .type-page .entry-content #contactUs .modal-body .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+html body .type-page .entry-content #contactUs .modal-body .container .left{
+    display: block;
+}
+html body .type-page .entry-content #contactUs .modal-body .container .left .box{
+    margin-top: 1.5rem;
+    display: flex;
+}
+html body .type-page .entry-content #contactUs .modal-body .container .left .box .image{
+    display: block;
+}
+html body .type-page .entry-content #contactUs .modal-body .container .left .box .image img{
     width: 4rem;
     height: 4rem;
     max-height: 4rem;
     max-width: 4rem;
-    border: solid 2px rgba(var(--bs-medium-blue-rgb),var(--bs-text-opacity))!important;
+    border: 2px solid #0072ce;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 1rem;
 }
-.container .left{
-    display: flex;
+html body .type-page .entry-content #contactUs .modal-body .container .left .box div{
+    display: block;
+    font-size: 18px;
 }
+html body .type-page .entry-content #contactUs .modal-body .container .left .box div .para1{
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+html body .type-page .entry-content #contactUs .modal-body .container .left .box div .para2{
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-size: 18px;
+}
+
