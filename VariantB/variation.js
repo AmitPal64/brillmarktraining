@@ -221,54 +221,72 @@
         };
       });
 
+
       var htmlString =''+ 
-'  <div class="container">'+ 
-'      <h3 class="heading">'+ 
-'          Learn how Insperity can help your business'+ 
-'      </h3>'+ 
+'  <div class="section">'+ 
+'      <div class="container">'+ 
+'          <div class="box">'+ 
+'              <div class="upper-part">'+ 
+'                  <h1 class="heading">Not sure if Honeybadger is right for you?</h1>'+ 
+'                  <p class="para">We designed Honeybadger to be the simplest and easiest-to-manage monitoring tool</p>'+ 
+'              </div>'+ 
 '  '+ 
-'      <div class="left">'+ 
-'          <div class="image">'+ 
-'              <img src="https://www.insperity.com/wp-content/uploads/contact-sale-person.jpg" alt="">'+ 
-'          </div>'+ 
-'          <div>'+ 
-'              <p>Call us</p>'+ 
-'              <a href="#">'+ 
-'                  <span>855.891.2949</span></a>'+ 
-'              <p>Or have us contact you</p>'+ 
-'              <p>Fill out the form and one of your representatives will contact you within one business day.</p>'+ 
+'              <div class="middle-part">'+ 
 '  '+ 
-'          </div>'+ 
-'          <div class="right">'+ 
-'              <form action="backend.php">'+ 
-'                  <div>'+ 
-'                      <input type="email" placeholder="Email">'+ 
+'                  <div class="image">'+ 
+'                      <div class="img">'+ 
+'                          <img src="https://xp.io/storage/1HMmGCVn.png" alt="">'+ 
+'                      </div>'+ 
+'  '+ 
+'                      <div class="text">'+ 
+'                          Includes all the monitoring you need - and nothing you don/t'+ 
+'                      </div>'+ 
 '                  </div>'+ 
 '  '+ 
-'                  <div>'+ 
-'                      <input type="first name" placeholder="First name">'+ 
-'                      <input type="last name" placeholder="Last name">'+ 
+'                  <div class="image">'+ 
+'                      <div class="img">'+ 
+'                          <img src="https://xp.io/storage/1HMmGCVn.png" alt="">'+ 
+'                      </div>'+ 
+'  '+ 
+'                      <div class="text">'+ 
+'                          Sets up in 5 minutes or less'+ 
+'                      </div>'+ 
 '                  </div>'+ 
 '  '+ 
-'                  <div>'+ 
-'                      <input type="phone" placeholder="Phone">'+ 
-'                      <input type="company name" placeholder="Company name">'+ 
+'                  <div class="image">'+ 
+'                      <div class="img">'+ 
+'                          <img src="https://xp.io/storage/1HMmGCVn.png" alt="">'+ 
+'                      </div>'+ 
+'  '+ 
+'                      <div class="text">'+ 
+'                          Integrates with the tools you/re already using'+ 
+'                      </div>'+ 
 '                  </div>'+ 
+'  '+ 
+'              </div>'+ 
+'  '+ 
+'              <div class="lower-part">'+ 
+'                  <p class="para1">'+ 
+'                      Get started for free and see why 1,000s of developers trust Honeybadger for application error monitoring.'+ 
+'                  </p>'+ 
 '  '+ 
 '                  <div class="button">'+ 
 '                      <button class="btn">'+ 
-'                              LETS TALK'+ 
+'                              Get Started for Free'+ 
 '                          </button>'+ 
 '                  </div>'+ 
-'              </form>'+ 
+'  '+ 
+'                  <p class="para2">No credit card required</p>'+ 
+'              </div>'+ 
 '          </div>'+ 
 '      </div>'+ 
 '  </div>';
 
+
       var helper = _$();
       /* Variation Init */
       function init() {
-        _$('body').addClass('gr-testEncouragementLine')
+        _$('.plans >.bg-white').insertAfter(htmlString)
 
         // _$('.minicart .minicart-buttons a[href*="/en-us/shoppingcart"]').text('Edit Cart')
         // _$('.minicart .minicart-buttons a[href*="/en-us/checkout"]').text('Checkout Now')
@@ -276,7 +294,7 @@
   
 
       /* Initialise variation */
-      helper.waitForElement(".minicart .minicart-buttons a[href*='/en-us/shoppingcart']", init, 50, 5000);
+      helper.waitForElement(".plans >.bg-white", init, 50, 15000);
     } catch (e) {
       if (debug) console.log(e, "error in Test" + variation_name);
     }

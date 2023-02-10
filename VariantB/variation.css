@@ -1,21 +1,41 @@
-.container{
-    background-image: url(/wp-content/themes/sage10/public/images/contact-us-compass.3c5253.svg);
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    flex: 1 1 auto;
-    padding: 1rem;
-    position: relative;
+html body .section{
+    background-color: #fff;
 }
-.container .heading{
+html body .section .container{
+    width: 100%;
+    margin: 0 auto;
+}
+html body .section .container .box{
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
-.container .left .image img{
-    width: 4rem;
-    height: 4rem;
-    max-height: 4rem;
-    max-width: 4rem;
-    border: solid 2px rgba(var(--bs-medium-blue-rgb),var(--bs-text-opacity))!important;
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+html body .section .container{
+    max-width: 1140px;
 }
-.container .left{
-    display: flex;
 }
+@media (min-width: 1200px){
+html body .section{
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+}
+    
