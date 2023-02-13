@@ -289,10 +289,12 @@
       function init() {
         _$('.plans >.bg-white').insertAfter(htmlString)
 
-        document.querySelector('.section .container .box .lower-part .button .btn').addEventListener('click',function(el){
-          // el.preventDefault();
-          document.querySelector('.plans .header .container >.text-white').scollIntoView();
-      })
+        document.querySelector("html body .section .container .box .lower-part .button .btn").addEventListener('click',function(el){
+          el.preventDefault;
+          document.querySelector('.bg-almost-white.rpt-5.rpb-3').scrollIntoView({ 
+            behavior: 'smooth' 
+          });
+        })
 
         // _$('.minicart .minicart-buttons a[href*="/en-us/shoppingcart"]').text('Edit Cart')
         // _$('.minicart .minicart-buttons a[href*="/en-us/checkout"]').text('Checkout Now')
