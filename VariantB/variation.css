@@ -1,18 +1,126 @@
 html body .section{
     background-color: #fff;
+
 }
-html body .section .container{
+/* html body .section .container{
     width: 100%;
     margin: 0 auto;
-}
+
+} */
 html body .section .container .box{
+    /* display: flex;
+    flex-wrap: wrap; */
+    max-width: 920px;
+    margin: 0 auto;
+
+}
+html body .section .container .box .upper-part{
+    padding-bottom: 48px;
+    flex: 1 0 0%;
+
+}
+html body .section .container .box .upper-part .heading{
+    text-align: center!important;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+html body .section .container .box .upper-part .para{
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    max-width: 576px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.2;
+    font-weight: 500;
+    color: rgb(24, 23, 23);
+
+}
+html body .section .container .box .middle-part{
     display: flex;
-    flex-direction: column;
+    gap: 70px;
+    justify-content: center;
+
+}
+html body .section .container .box .middle-part .image1{
+    display: block;
+    max-width: 198px;
+}
+html body .section .container .box .middle-part .image1 .img1{
     text-align: center;
 }
-    
-
-
+html body .section .container .box .middle-part .image1 .text{
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+}
+html body .section .container .box .middle-part .image2{
+    display: block;
+    max-width: 125px;
+}
+html body .section .container .box .middle-part .image2 .img2{
+    text-align: center;
+}
+html body .section .container .box .middle-part .image2 .img2 img{
+    width: 84px;
+}
+html body .section .container .box .middle-part .image2 .text{
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+}
+html body .section .container .box .middle-part .image3{
+    display: block;
+    max-width: 220px;
+}
+html body .section .container .box .middle-part .image3 .img3{
+    text-align: center;
+}
+html body .section .container .box .middle-part .image3 .img3 img{
+    width: 84px;
+}
+html body .section .container .box .middle-part .image3 .text{
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+}
+html body .section .container .box .lower-part{
+    display: block;
+    flex: 1 0 0%;
+    text-align: center;
+    padding-top: 36px;
+}
+html body .section .container .box .lower-part .para1{
+    font-size: 20px;
+    max-width: 630px;
+    width: 100%;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    color: rgb(24, 23, 23);
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+html body .section .container .box .lower-part .button .btn{
+    color: #fff;
+    background-color: rgb(113, 201, 236);
+    border: 2px solid black;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px 78px;
+}
+html body .section .container .box .lower-part .para2{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(24, 23, 23);
+    padding-top: 6px;
+}    
 
 
 
@@ -38,4 +146,14 @@ html body .section{
     padding-bottom: 3rem !important;
 }
 }
-    
+/* @media (min-width: 1200px){
+html body .section .container .box .upper-part .heading{
+    font-size: 2.5rem;
+}
+} */
+@media (min-width: 360px){
+html body .section .container .box .middle-part{
+    /* display: flex; */
+    flex-wrap: wrap;
+}        
+}

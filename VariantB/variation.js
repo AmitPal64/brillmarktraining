@@ -222,6 +222,7 @@
       });
 
 
+    
       var htmlString =''+ 
 '  <div class="section">'+ 
 '      <div class="container">'+ 
@@ -233,8 +234,8 @@
 '  '+ 
 '              <div class="middle-part">'+ 
 '  '+ 
-'                  <div class="image">'+ 
-'                      <div class="img">'+ 
+'                  <div class="image1">'+ 
+'                      <div class="img1">'+ 
 '                          <img src="https://xp.io/storage/1HMmGCVn.png" alt="">'+ 
 '                      </div>'+ 
 '  '+ 
@@ -243,9 +244,9 @@
 '                      </div>'+ 
 '                  </div>'+ 
 '  '+ 
-'                  <div class="image">'+ 
-'                      <div class="img">'+ 
-'                          <img src="https://xp.io/storage/1HMmGCVn.png" alt="">'+ 
+'                  <div class="image2">'+ 
+'                      <div class="img2">'+ 
+'                          <img src="https://d27c6j8064skg9.cloudfront.net/ConversionRateExpert/Honeybadger/Test-20/fing.png" alt="">'+ 
 '                      </div>'+ 
 '  '+ 
 '                      <div class="text">'+ 
@@ -253,9 +254,9 @@
 '                      </div>'+ 
 '                  </div>'+ 
 '  '+ 
-'                  <div class="image">'+ 
-'                      <div class="img">'+ 
-'                          <img src="https://xp.io/storage/1HMmGCVn.png" alt="">'+ 
+'                  <div class="image3">'+ 
+'                      <div class="img3">'+ 
+'                          <img src="https://d27c6j8064skg9.cloudfront.net/ConversionRateExpert/Honeybadger/Test-20/set.png" alt="">'+ 
 '                      </div>'+ 
 '  '+ 
 '                      <div class="text">'+ 
@@ -288,10 +289,14 @@
       function init() {
         _$('.plans >.bg-white').insertAfter(htmlString)
 
+        document.querySelector('.section .container .box .lower-part .button .btn').addEventListener('click',function(el){
+          // el.preventDefault();
+          document.querySelector('.plans .header .container >.text-white').scollIntoView();
+      })
+
         // _$('.minicart .minicart-buttons a[href*="/en-us/shoppingcart"]').text('Edit Cart')
         // _$('.minicart .minicart-buttons a[href*="/en-us/checkout"]').text('Checkout Now')
-      }
-  
+      }  
 
       /* Initialise variation */
       helper.waitForElement(".plans >.bg-white", init, 50, 15000);
