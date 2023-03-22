@@ -1,0 +1,62 @@
+html body .c-product-tabs > :first-child .c-product-tabs__content li:nth-child(1) ~ li{
+    display: none;
+}
+html body .c-product-tabs > :first-child .c-product-tabs__sku{
+    display: none;
+}
+html body .bf-container{
+    width: 100%;
+}
+html body .bf-container .wrapper .box{
+    display: flex;
+}
+html body .bf-container .wrapper .box .text .heading{
+    font-family: 'Degular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.2px;
+    color: #1E1414;
+    border-bottom: 2px solid #1E1414;
+}
+html body .bf-container .wrapper .box .image{
+    max-width: 12px;
+    margin: 0 8px;    
+}
+html body .bf-container .wrapper .box .image img{
+    width: 100%;
+}
+
+@media (min-width: 767px){
+html body .image1{
+    display: none;
+}
+}
+    
+@media (max-width: 767px){
+html body .c-product-tabs > :first-child .c-product-tabs__title{
+    position: relative;
+}    
+}
+    
+@media (max-width: 767px){
+html body .image1{
+    position: absolute;
+    /* top: 8px; */
+    bottom: 24px;
+    right: 0;
+} 
+}
+    
+@media (max-width: 767px){
+html body .image1 img{
+    width: 100%;
+}
+}
+    
+@media (max-width: 767px){
+html body .c-product-tabs > :first-child{
+    position: relative;
+}    
+}

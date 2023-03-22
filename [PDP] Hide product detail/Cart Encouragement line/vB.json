@@ -1,0 +1,8 @@
+{
+	"files": [
+		"VariantB/variation.js",
+		"VariantB/variation.css"		
+	],
+	"inject": "",
+	"urls": ["https://www.toms.com/"]
+}
