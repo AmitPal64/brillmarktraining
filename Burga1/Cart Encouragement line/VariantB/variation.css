@@ -1,0 +1,137 @@
+@media (min-width: 768px){
+html body .burga90-container{
+    display: none;
+}    
+}
+
+@media (max-width: 767px){
+html body #shopify-section-index__slideshow .block-rel .cell-l{
+    display: none;
+}
+}
+
+@media (max-width: 767px){
+html body .burga90-container{
+    width: 100%;
+    position: static;
+    transform: none;
+    padding: 0px;
+    padding-bottom: 30px;
+    background: #f0f0f0;
+}    
+}
+
+@media (max-width: 767px){
+html body .burga90-container .burga90-wrapper .burga90-box{
+    display: flex;
+    max-width: 767px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}    
+}
+
+@media (max-width: 767px){
+html body .burga90-container .burga90-wrapper .burga90-box .burga90-text1{
+    padding: 14px 15px;
+    font-size: 16px;
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    background-color: #abb57b;
+    width: 100%;
+    text-transform: uppercase;
+}    
+}
+
+@media (max-width: 767px){
+html body .burga90-container .burga90-wrapper .burga90-box .burga90-text2 .burga90-heading{
+    font-family: "brandon-grotesque",sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    margin: 0px;
+    padding: 24px 15px 15px 15px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}    
+}
+
+@media (max-width: 767px){
+html body .burga90-container .burga90-wrapper .burga90-box .burga90-text2 .burga90-paragraph{
+    color: #616161;
+    font-size: 2.2rem;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-family: "brandon-grotesque",sans-serif;
+    text-align: center;
+}    
+}
+
+@media (max-width: 767px){
+html body .burga90-container .burga90-wrapper .burga90-box .button{
+    /* width: 100%; */
+    padding: 0px 15px;
+}    
+}
+
+@media (max-width: 767px){
+html body .burga90-container .burga90-wrapper .burga90-box .button .burga90-btn{
+    background: green;
+    color: #ffffff;
+    padding: 15px 92px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transition: all 200ms linear;
+}    
+}
+
+@media (max-width: 767px){
+html body .burga90-container .burga90-wrapper .burga90-box .burga90-review{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}    
+}
+
+@media (max-width: 767px){
+html body .burga90-container .burga90-wrapper .burga90-box .burga90-review .burga90-stars{
+    max-width: 100px;
+    display: inline-block;
+    margin-right: 10px;
+}   
+}
+
+@media (max-width: 767px){
+html body .burga90-container .burga90-wrapper .burga90-box .burga90-review .burga90-stars img{
+    width: 100%;
+}    
+}
+
+@media (max-width: 767px){
+html body .burga90-container .burga90-wrapper .burga90-box .burga90-review .burga90-para{
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    font-size: 1.6rem;
+    font-family: "brandon-grotesque",sans-serif;
+}
+}
+
