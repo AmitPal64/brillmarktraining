@@ -1,0 +1,13 @@
+html body .pr-review-snapshot-faceoff{
+    display: none;
+}
+
+html body #pr-review-snapshot{
+    margin-bottom: 2px;
+}
+
+/* @media (max-width: 767px){
+html body #pr-review-display{
+    padding: 2px 0 0 0;
+}
+} */

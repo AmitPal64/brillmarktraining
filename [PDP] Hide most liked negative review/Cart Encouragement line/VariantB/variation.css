@@ -1,0 +1,9 @@
+html body .pr-faceoff-negative{
+    display: none;
+}
+html body .pr-faceoff-img{
+    display: none;
+}
+html body .pr-review-snapshot-faceoff .pr-faceoff-positive{
+    width: 100% !important;
+}
